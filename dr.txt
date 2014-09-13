@@ -1,0 +1,9 @@
+ex02
+
+1. bien
+
+print("1. ${x-y/z}");
+
+2. bien
+3. bien
+4. bien

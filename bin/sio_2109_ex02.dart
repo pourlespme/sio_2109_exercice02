@@ -6,13 +6,13 @@ void main() {
 	int z = 8;
 	
 	
-	print("1. "'${x-y/z}');
+	print("1. ${x-y/z}");
 			
 	//question 2
   double pi = 3.14;
   int radius = 10;
   
-  print ("2. "'${radius*radius*pi}');
+  print ('2. ${radius*radius*pi}');
   
   //question 3
   
@@ -23,7 +23,7 @@ void main() {
   
  
   		
- print("3. Le pays " '${country}' " a une superficie de " '${(lotx*loty)/acre}' " acres.");		
+ print('3. Le pays ${country} a une superficie de ${(lotx*loty)/acre} acres.');		
  
  
  //question 04
@@ -32,7 +32,7 @@ void main() {
 	int distance = 100;
 	double time = 9.58;
 	
-	print ("4. Le sprinter " '${runner}' " a couru le " '${distance}' "a une vitesse moyenne de " '${(distance/time)}' " m/s.");
+	print ("4. Le sprinter ${runner} a couru le ${distance} a une vitesse moyenne de ${(distance/time)} m/s.");
 	
  
 }
